@@ -1,8 +1,11 @@
+import { Route, Routes } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+
 function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-cyan-400">Tailwind is working</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+    </Routes>
   )
 }
 
