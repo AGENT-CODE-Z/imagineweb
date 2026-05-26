@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "job_id": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["queued", "processing", "done", "failed"]
+    }
+  },
+  "required": ["job_id", "status"]
+}
