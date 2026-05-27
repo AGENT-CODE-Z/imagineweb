@@ -7,3 +7,6 @@ __pycache__/
 
 # IDE files
 .vscode/
+
+# Node dependencies
+node_modules/
